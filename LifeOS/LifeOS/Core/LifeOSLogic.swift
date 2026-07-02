@@ -94,27 +94,58 @@ enum CommandSearch {
         let terms = query.normalizedSearchText.split(separator: " ").map(String.init).filter { !$0.isEmpty }
         guard !terms.isEmpty else { return [] }
 
-        return items.enumerated().compactMap { index, item in
-            let title = item.title.normalizedSearchText
-            let subtitle = item.subtitle.normalizedSearchText
-            let keywords = item.keywords.joined(separator: " ").normalizedSearchText
-            let route = item.route.rawValue.normalizedSearchText
-            let score = terms.reduce(0) { partial, term in
-                if title.contains(term) { return partial + 6 }
-                if keywords.contains(term) { return partial + 5 }
-                if subtitle.contains(term) { return partial + 3 }
-                if route.contains(term) { return partial + 1 }
-                return partial
+        var scoredItems: [CommandSearchScore] = []
+        for (index, item) in items.enumerated() {
+            let score = score(item: item, terms: terms)
+            if score > 0 {
+                scoredItems.append(CommandSearchScore(index: index, score: score, item: item))
             }
-            return score > 0 ? (index: index, score: score, item: item) : nil
         }
-        .sorted {
-            if $0.score == $1.score { return $0.index < $1.index }
-            return $0.score > $1.score
+
+        scoredItems.sort { left, right in
+            if left.score == right.score {
+                return left.index < right.index
+            }
+            return left.score > right.score
         }
-        .prefix(max(limit, 1))
-        .map(\.item)
+
+        let resultLimit = max(limit, 1)
+        var results: [CommandSearchItem] = []
+        for scoredItem in scoredItems {
+            if results.count >= resultLimit {
+                break
+            }
+            results.append(scoredItem.item)
+        }
+        return results
     }
+
+    private static func score(item: CommandSearchItem, terms: [String]) -> Int {
+        let title = item.title.normalizedSearchText
+        let subtitle = item.subtitle.normalizedSearchText
+        let keywords = item.keywords.joined(separator: " ").normalizedSearchText
+        let route = item.route.rawValue.normalizedSearchText
+
+        var score = 0
+        for term in terms {
+            if title.contains(term) {
+                score += 6
+            } else if keywords.contains(term) {
+                score += 5
+            } else if subtitle.contains(term) {
+                score += 3
+            } else if route.contains(term) {
+                score += 1
+            }
+        }
+        return score
+    }
+}
+
+private struct CommandSearchScore {
+    var index: Int
+    var score: Int
+    var item: CommandSearchItem
 }
 
 enum PlanUrgency: Int, Codable {

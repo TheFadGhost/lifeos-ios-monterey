@@ -12,6 +12,7 @@ This public release contains the native SwiftUI LifeOS iOS port packaged for mac
 - JSON/CSV export.
 - XCTest coverage for core Android-equivalent logic.
 - Monterey + MacPorts install guide.
+- Xcode 14.2 / Swift 5.7-friendly command search implementation.
 - Optional paid ad hoc `.ipa` archive/export script.
 - OTA manifest template and install guide.
 
