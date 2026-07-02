@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C248B633DAA47B368FB29349 /* LifeOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8392E8DB6FBFFC7EC4B966F /* LifeOSApp.swift */; };
+		45D3899471E236D490B08F8B /* LifeOSExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E8D0FF1CCDCFA5C69B273 /* LifeOSExport.swift */; };
+		C515A94F10B5C709EE84695D /* LifeOSLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1278350513EB3104B4AC57A6 /* LifeOSLogic.swift */; };
+		4659FDFF3622BDF8D1793BA3 /* LifeOSModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19700113ED44B92407F2DFF0 /* LifeOSModels.swift */; };
+		EF9DC33403704436C2151BCE /* LifeOSStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDECA9008502222C68D3608 /* LifeOSStore.swift */; };
+		86739DE1A4E32DE4B5CB7E87 /* LifeOSTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08637D32B6C472514291264B /* LifeOSTheme.swift */; };
+		1D132BE7F0532D85F1C055B3 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB35BB413241A33FB8EE3C /* ReminderScheduler.swift */; };
+		7514241592C0006276C62A55 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05F7D73C2679A50F793A0C /* CalendarScreen.swift */; };
+		46971A17F1A76E20374CDB1E /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203108CE51760C5DAB0803C /* DashboardScreen.swift */; };
+		6D129501C2617CCC803292B8 /* ExpensesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53304F03723A1688B88B8E58 /* ExpensesScreen.swift */; };
+		B55867DBE1D99A612227D8F7 /* FitnessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B5F8AA073E995E36A6455 /* FitnessScreen.swift */; };
+		C3A6D470EDA15839631BAE75 /* HabitsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BD696AF08B5AA89BDEAF5 /* HabitsScreen.swift */; };
+		BB8E5756060251E4C8853E99 /* JournalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB6D7BEFA59C0E7D962162 /* JournalScreen.swift */; };
+		B5CD5D3F169749F5C5BC1383 /* NotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1011808CECF11DA873B038 /* NotesScreen.swift */; };
+		BC18E01CCF9C84AE9022FE1D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD409C708C0D15E0437277 /* SettingsScreen.swift */; };
+		9FBB3DCB737BEE11234540A2 /* TasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F44C6B808518817DC768CB6 /* TasksScreen.swift */; };
+		CEFBF9B857709E4DA83A17F9 /* LifeOSComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E233DDAE033F63D1FD7083 /* LifeOSComponents.swift */; };
+		4036447CD1BA5B59B9C34EA8 /* LifeOSLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B5F8BC91F99818C67163A /* LifeOSLogicTests.swift */; };
+		B124516CC78E6A90040109C2 /* LifeOSStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EACAA8751A9D9CC0103785 /* LifeOSStoreTests.swift */; };
+		6DCB8348A5BB45F246B65250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB200A3DABAE7F65DFEE241 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD13342FDA64D7132F793A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E109AFA8EE2B742762E473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5BE8287276D67589FE2AE8;
+			remoteInfo = LifeOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8392E8DB6FBFFC7EC4B966F /* LifeOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSApp.swift; sourceTree = "<group>"; };
+		661E8D0FF1CCDCFA5C69B273 /* LifeOSExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSExport.swift; sourceTree = "<group>"; };
+		1278350513EB3104B4AC57A6 /* LifeOSLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSLogic.swift; sourceTree = "<group>"; };
+		19700113ED44B92407F2DFF0 /* LifeOSModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSModels.swift; sourceTree = "<group>"; };
+		4CDECA9008502222C68D3608 /* LifeOSStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSStore.swift; sourceTree = "<group>"; };
+		08637D32B6C472514291264B /* LifeOSTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSTheme.swift; sourceTree = "<group>"; };
+		2FBB35BB413241A33FB8EE3C /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		2D05F7D73C2679A50F793A0C /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		2203108CE51760C5DAB0803C /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		53304F03723A1688B88B8E58 /* ExpensesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesScreen.swift; sourceTree = "<group>"; };
+		450B5F8AA073E995E36A6455 /* FitnessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessScreen.swift; sourceTree = "<group>"; };
+		6C4BD696AF08B5AA89BDEAF5 /* HabitsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsScreen.swift; sourceTree = "<group>"; };
+		90EB6D7BEFA59C0E7D962162 /* JournalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalScreen.swift; sourceTree = "<group>"; };
+		CC1011808CECF11DA873B038 /* NotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesScreen.swift; sourceTree = "<group>"; };
+		85DD409C708C0D15E0437277 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		3F44C6B808518817DC768CB6 /* TasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksScreen.swift; sourceTree = "<group>"; };
+		33E233DDAE033F63D1FD7083 /* LifeOSComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSComponents.swift; sourceTree = "<group>"; };
+		178B5F8BC91F99818C67163A /* LifeOSLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSLogicTests.swift; sourceTree = "<group>"; };
+		E9EACAA8751A9D9CC0103785 /* LifeOSStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeOSStoreTests.swift; sourceTree = "<group>"; };
+		A26DD434B5B6E17BB61D6E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531516D021F66538C92C04B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB200A3DABAE7F65DFEE241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B587B381DE93C17D6D599A95 /* LifeOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4538B4F094785F32096D933A /* LifeOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F41FBF3B751FD4F43977F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6FFCD01AE3C03901DFE0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F1AE824CE428D933BBBE0F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B8392E8DB6FBFFC7EC4B966F /* LifeOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		71D1BF7CC6C7DFD0A67D83BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				661E8D0FF1CCDCFA5C69B273 /* LifeOSExport.swift */,
+				1278350513EB3104B4AC57A6 /* LifeOSLogic.swift */,
+				19700113ED44B92407F2DFF0 /* LifeOSModels.swift */,
+				4CDECA9008502222C68D3608 /* LifeOSStore.swift */,
+				08637D32B6C472514291264B /* LifeOSTheme.swift */,
+				2FBB35BB413241A33FB8EE3C /* ReminderScheduler.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A263F9F5AB36161711301CCE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2D05F7D73C2679A50F793A0C /* CalendarScreen.swift */,
+				2203108CE51760C5DAB0803C /* DashboardScreen.swift */,
+				53304F03723A1688B88B8E58 /* ExpensesScreen.swift */,
+				450B5F8AA073E995E36A6455 /* FitnessScreen.swift */,
+				6C4BD696AF08B5AA89BDEAF5 /* HabitsScreen.swift */,
+				90EB6D7BEFA59C0E7D962162 /* JournalScreen.swift */,
+				CC1011808CECF11DA873B038 /* NotesScreen.swift */,
+				85DD409C708C0D15E0437277 /* SettingsScreen.swift */,
+				3F44C6B808518817DC768CB6 /* TasksScreen.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		712EF4C1E5FA9C30D4CE354E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				33E233DDAE033F63D1FD7083 /* LifeOSComponents.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		887A6F90336FF23D95C3914B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A26DD434B5B6E17BB61D6E34 /* Info.plist */,
+				AEB200A3DABAE7F65DFEE241 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAE19980A116F2943980C18C /* LifeOS */ = {
+			isa = PBXGroup;
+			children = (
+				C7F1AE824CE428D933BBBE0F /* App */,
+				71D1BF7CC6C7DFD0A67D83BB /* Core */,
+				A263F9F5AB36161711301CCE /* Features */,
+				887A6F90336FF23D95C3914B /* Resources */,
+				712EF4C1E5FA9C30D4CE354E /* UI */,
+			);
+			path = LifeOS;
+			sourceTree = "<group>";
+		};
+		86FD52A75610A509B2159EAC /* LifeOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				531516D021F66538C92C04B3 /* Info.plist */,
+				178B5F8BC91F99818C67163A /* LifeOSLogicTests.swift */,
+				E9EACAA8751A9D9CC0103785 /* LifeOSStoreTests.swift */,
+			);
+			path = LifeOSTests;
+			sourceTree = "<group>";
+		};
+		2F3A6B1E78F896718625FF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B587B381DE93C17D6D599A95 /* LifeOS.app */,
+				4538B4F094785F32096D933A /* LifeOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9340614599AB78F485950C7 = {
+			isa = PBXGroup;
+			children = (
+				CAE19980A116F2943980C18C /* LifeOS */,
+				86FD52A75610A509B2159EAC /* LifeOSTests */,
+				2F3A6B1E78F896718625FF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5BE8287276D67589FE2AE8 /* LifeOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743646C4F341FC4657B2CA48 /* Build configuration list for PBXNativeTarget "LifeOS" */;
+			buildPhases = (
+				F169949ACFE513677A7C5290 /* Sources */,
+				56F41FBF3B751FD4F43977F7 /* Frameworks */,
+				F9E3EF6ABBDE0EA08D461D86 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = LifeOS;
+			productName = LifeOS;
+			productReference = B587B381DE93C17D6D599A95 /* LifeOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54E9ABE594CACC759F7180CA /* LifeOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC2036C6DD0BF2E3FD8B31E /* Build configuration list for PBXNativeTarget "LifeOSTests" */;
+			buildPhases = (
+				2BCD556FBCF8C2A0D871D6EF /* Sources */,
+				1B6FFCD01AE3C03901DFE0DB /* Frameworks */,
+				BDC09FB9AA5A0242C1F33627 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				E0D0973179F5C13E993A2C9A /* PBXTargetDependency */,
+			);
+			name = LifeOSTests;
+			productName = LifeOSTests;
+			productReference = 4538B4F094785F32096D933A /* LifeOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E109AFA8EE2B742762E473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA5BE8287276D67589FE2AE8 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					54E9ABE594CACC759F7180CA = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA5BE8287276D67589FE2AE8;
+					};
+				};
+			};
+			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "LifeOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = B9340614599AB78F485950C7;
+			productRefGroup = 2F3A6B1E78F896718625FF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5BE8287276D67589FE2AE8 /* LifeOS */,
+				54E9ABE594CACC759F7180CA /* LifeOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E3EF6ABBDE0EA08D461D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCB8348A5BB45F246B65250 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC09FB9AA5A0242C1F33627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F169949ACFE513677A7C5290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248B633DAA47B368FB29349 /* LifeOSApp.swift in Sources */,
+				45D3899471E236D490B08F8B /* LifeOSExport.swift in Sources */,
+				C515A94F10B5C709EE84695D /* LifeOSLogic.swift in Sources */,
+				4659FDFF3622BDF8D1793BA3 /* LifeOSModels.swift in Sources */,
+				EF9DC33403704436C2151BCE /* LifeOSStore.swift in Sources */,
+				86739DE1A4E32DE4B5CB7E87 /* LifeOSTheme.swift in Sources */,
+				1D132BE7F0532D85F1C055B3 /* ReminderScheduler.swift in Sources */,
+				7514241592C0006276C62A55 /* CalendarScreen.swift in Sources */,
+				46971A17F1A76E20374CDB1E /* DashboardScreen.swift in Sources */,
+				6D129501C2617CCC803292B8 /* ExpensesScreen.swift in Sources */,
+				B55867DBE1D99A612227D8F7 /* FitnessScreen.swift in Sources */,
+				C3A6D470EDA15839631BAE75 /* HabitsScreen.swift in Sources */,
+				BB8E5756060251E4C8853E99 /* JournalScreen.swift in Sources */,
+				B5CD5D3F169749F5C5BC1383 /* NotesScreen.swift in Sources */,
+				BC18E01CCF9C84AE9022FE1D /* SettingsScreen.swift in Sources */,
+				9FBB3DCB737BEE11234540A2 /* TasksScreen.swift in Sources */,
+				CEFBF9B857709E4DA83A17F9 /* LifeOSComponents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD556FBCF8C2A0D871D6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4036447CD1BA5B59B9C34EA8 /* LifeOSLogicTests.swift in Sources */,
+				B124516CC78E6A90040109C2 /* LifeOSStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0D0973179F5C13E993A2C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5BE8287276D67589FE2AE8 /* LifeOS */;
+			targetProxy = BD13342FDA64D7132F793A24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		969595A508627F35A110362C /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			}; name = Debug; };
+		4C95F91A6D5CD87BB5DB8FDD /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			}; name = Release; };
+		C0DD1C3E4BFC124D878FE440 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeOS/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.00;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lifeos.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		699FCDBED06EC64C8A6B513F /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeOS/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.00;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lifeos.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+		B1F05F06510EE3683971BC0B /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lifeos.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeOS";
+			}; name = Debug; };
+		D7748B0D11C986601399B73D /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lifeos.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeOS";
+			}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "LifeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969595A508627F35A110362C /* Debug */,
+				4C95F91A6D5CD87BB5DB8FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743646C4F341FC4657B2CA48 /* Build configuration list for PBXNativeTarget "LifeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DD1C3E4BFC124D878FE440 /* Debug */,
+				699FCDBED06EC64C8A6B513F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC2036C6DD0BF2E3FD8B31E /* Build configuration list for PBXNativeTarget "LifeOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F05F06510EE3683971BC0B /* Debug */,
+				D7748B0D11C986601399B73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23E109AFA8EE2B742762E473 /* Project object */;
+}
